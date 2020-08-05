@@ -36,7 +36,7 @@
     "typescript": "^3.9.7"
   },
   "engines": {
-    "node": "14.x"
+    "node": "12.x"
   },
   "license": "MIT",
   "main": "index.js",
