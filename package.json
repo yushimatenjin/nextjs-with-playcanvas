@@ -1,0 +1,52 @@
+{
+  "name": "nextjs-with-playcanvas",
+  "version": "1.0.0",
+  "author": "yushimatenjin <39250588+yushimatenjin@users.noreply.github.com>",
+  "dependencies": {
+    "next": "^9.1.3",
+    "normalize.css": "^8.0.1",
+    "playcanvas": "1.31.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-image-gallery": "^1.0.8",
+    "react-modal": "^3.11.2",
+    "sass": "^1.26.10",
+    "styled-components": "^5.1.1",
+    "styled-media-query": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@types/node": "^14.0.24",
+    "@types/react": "^16.9.43",
+    "@types/styled-components": "^5.1.1",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "babel-preset-react-app": "^9.1.2",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git@github.com:yushimatenjin/nextjs-with-playcanvas.git",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "eslint src/ --ext ts,tsx",
+    "lint:fix": "eslint --fix  src/ --ext ts,tsx"
+  }
+}

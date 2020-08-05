@@ -1,0 +1,54 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb",
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended",
+      "plugin:prettier/recommended",
+      "prettier/@typescript-eslint",
+      "prettier/react"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "globals": {
+      "window": true,
+      "WebAssembly": true,
+      "document": true
+    },
+    "rules": {
+      "no-param-reassign": 0,
+      "no-underscore-dangle": 0,
+      "no-plusplus": 0,
+      "import/prefer-default-export": 0,
+      "no-empty": [
+        "error",
+        {
+          "allowEmptyCatch": true
+        }
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "semi": true,
+          "singleQuote": true,
+          "trailingComma": "es5"
+        }
+      ],
+      "react/jsx-filename-extension": [
+        "off"
+      ],
+      "jsx-a11y/anchor-is-valid": 0,
+      "global-require": 0,
+      "react/forbid-prop-types": [
+        "error",
+        {
+          "forbid": [
+            "any"
+          ]
+        }
+      ]
+    }
+  }
