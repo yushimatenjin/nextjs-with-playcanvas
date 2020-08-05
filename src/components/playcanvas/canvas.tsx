@@ -21,8 +21,7 @@ const Canvas: React.FC = () => {
 
       const camera = new pc.Entity('camera');
 
-      camera.addComponent('camera', {
-      });
+      camera.addComponent('camera', {});
 
       app.root.addChild(camera);
 
@@ -30,7 +29,7 @@ const Canvas: React.FC = () => {
 
       const light = new pc.Entity('light');
       light.addComponent('light');
-      
+
       app.root.addChild(light);
       light.setEulerAngles(45, 0, 0);
       app.on('update', (dt) => box.rotate(10 * dt, 20 * dt, 30 * dt));

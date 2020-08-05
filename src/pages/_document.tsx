@@ -6,7 +6,10 @@ class CustomDocument extends Document {
     return (
       <Html>
         <Head>
-          <style global jsx>{`body { margin: 0; border-collapse: collapse; width:800px;};box `}</style>
+          <style
+            global
+            jsx
+          >{`body { margin: 0; border-collapse: collapse; width:800px;};box `}</style>
         </Head>
         <body>
           <Main />

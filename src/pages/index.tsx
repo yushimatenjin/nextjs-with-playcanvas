@@ -1,14 +1,11 @@
-import React, { useRef, useEffect } from 'react';
-import dynamic from 'next/dynamic'
+import React from 'react';
+import dynamic from 'next/dynamic';
 
-const Canvas = dynamic(
-    () => import("../components/playcanvas/canvas"),
-    { ssr: false }
-  )
-
+const Canvas = dynamic(() => import('../components/playcanvas/canvas'), {
+  ssr: false,
+});
 
 const Page: React.FC = () => {
-
-    return <Canvas />
-}
+  return <Canvas />;
+};
 export default Page;
